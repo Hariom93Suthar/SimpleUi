@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_api/Animation_prac/Class_Call.dart';
+import 'package:simple_ui/Animation_prac/Class_Call.dart';
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
 
@@ -19,7 +19,7 @@ class _LoginState extends State<Login> {
           body: Stack(
             fit: StackFit.passthrough,
         children: [
-          Image.asset("assets/logos/log.gif",
+          Image.asset("assets/images/log.gif",
             fit: BoxFit.fitHeight,
             height:MediaQuery.of(context).size.height,
             filterQuality: FilterQuality.high,
@@ -48,7 +48,7 @@ class _LoginState extends State<Login> {
                     alignment: Alignment.bottomCenter,
                     child: ElevatedButton(onPressed: (){
 
-                    }, child: Image.asset("assets/logos/loginicon.gif"),style: ButtonStyle(
+                    }, child: Image.asset("assets/images/loginicon.gif"),style: ButtonStyle(
                         backgroundColor: MaterialStatePropertyAll(Colors.blueAccent),
                         padding: MaterialStateProperty.all(EdgeInsets.only(left: 70,right: 70,top: 20,bottom: 20))
                     ),

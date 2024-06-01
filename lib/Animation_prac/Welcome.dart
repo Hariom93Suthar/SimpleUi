@@ -13,8 +13,8 @@ class Welcome_page extends StatefulWidget {
 
 class _Welcome_pageState extends State<Welcome_page> {
   List imglist =[
-    {"id":1, "imgpath":"assets/logos/Hii.gif"},
-    {"id":2, "imgpath": "assets/logos/next.png"}
+    {"id":1, "imgpath":"assets/images/Hii.gif"},
+    {"id":2, "imgpath": "assets/images/next.png"}
   ];
   final CarouselController carouselController = CarouselController();
   int currentindex = 0;

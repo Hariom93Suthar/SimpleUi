@@ -1,7 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_api/Animation_prac/login_page.dart';
+import 'package:simple_ui/Animation_prac/login_page.dart';
 import 'package:get/get.dart';
 class OpenLogin extends StatefulWidget {
   const OpenLogin({Key? key}) : super(key: key);
@@ -22,7 +21,7 @@ class _OpenLoginState extends State<OpenLogin> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       body: Image.asset("assets/logos/giftbox.gif",
+       body: Image.asset("assets/images/giftbox.gif",
          height: MediaQuery.of(context).size.height,),
     );
   }
